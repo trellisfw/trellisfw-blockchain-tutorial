@@ -243,7 +243,13 @@ export const stopRace = sequence('stopRace', [
 //-----------------------------------------------------------
 
 export const generatePublicKey = sequence('generatePublicKey', [
-  ({props,state}) => state.set(`pubkey`, ec.keyFromPrivate(state.get(`privkey`)).getPublic('hex')),
+  ({props,state}) => {
+    let privkey = state.get(`privkey`);
+    if (!privkey || privkey.length < 3) {
+      privkey = 'empty';
+    }
+    state.set(`pubkey`, ec.keyFromPrivate(privkey).getPublic('hex'))
+  },
 ]);
 
 export const randomizePrivateKey = sequence('randomizePrivateKey', [

@@ -1,7 +1,7 @@
 {
   "name": "blockchain-tutorial",
   "version": "0.1.0",
-  "homepage": "https://aultac.github.io/blockchain-tutorial",
+  "homepage": "https://trellisfw.github.io/trellisfw-blockchain-tutorial",
   "private": false,
   "dependencies": {
     "@cerebral/react": "^3.2.2",
