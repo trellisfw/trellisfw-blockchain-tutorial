@@ -82,8 +82,8 @@ export default connect({
             </a>
           </div>
           <div className='footer-bar-element'>
-            Github: <a href='https://github.com/aultac/blockchain-tutorial'>{'https://github.com/aultac/blockchain-tutorial'}</a><br/>
-            Live: <a href='https://aultac.github.io/blockchain-tutorial'>{'https://aultac.github.io/blockchain-tutorial'}</a><br/>
+            Github: <a href='https://github.com/trellisfw/trellisfw-blockchain-tutorial'>{'https://github.com/aultac/blockchain-tutorial'}</a><br/>
+            Live: <a href='https://trellisfw.github.io/trellisfw-blockchain-tutorial'>{'https://aultac.github.io/blockchain-tutorial'}</a><br/>
             Many thanks to Anders Brownworth for his<br/> excellent blockchain demo that inspired this one: <br/>
             <a href='https://anders.com/blockchain/'>{'https://anders.com/blockchain/'}</a>
           </div>
