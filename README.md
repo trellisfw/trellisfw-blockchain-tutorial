@@ -13,7 +13,7 @@ inspired this one: https://anders.com/blockchain/.
 
 Live:
 ---------
-https://trellisfw.github.io/trellsfw-blockchain-tutorial
+https://trellisfw.github.io/trellisfw-blockchain-tutorial
 
 Install and Run Locally:
 ---------
